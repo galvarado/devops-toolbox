@@ -1,0 +1,32 @@
+# This Pod definition is meant be a simple example of running an AWS CLI container within a Kubernetes cluster.
+# Please adjust the specifications according to your specific use case and requirements.
+
+# Create the pod
+# kubernetes apply -f awscli-pod.yaml
+
+# This command is used to retrieve information about the IAM  identity currently being used within the container named "awscli."
+# It will provide details about the AWS account and user associated with the IAM credentials being used.
+# kubernetes exec -it awscli  -- aws sts get-caller-identity
+
+# This command is used to search for environment variables related to AWS within the container named "awscli." 
+# It will list any environment variables that include "AWS" in their names or values.
+# This is useful for verifying AWS-related configurations and credentials within the container.
+# kubernetes exec -it awscli env | grep AWS
+
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: awscli
+  labels:
+    app: awscli
+spec:
+  serviceAccountName: default-service-account
+  containers:
+    - image: amazon/aws-cli
+      command:
+        - 'sleep'
+        - '604800'
+      imagePullPolicy: IfNotPresent
+      name: awscli
+  restartPolicy: Always
