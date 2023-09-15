@@ -21,7 +21,7 @@ In my journey with DevOps activities, I've often come across situations where a 
 
 ## Resources
 
--Don't forget to check out the [Resources](resources/README.md) directory with a valuable list of tools, platforms and online resources like an online IDE or the AI Search Engine for Developers and coders.
+Don't forget to check out the [Resources](resources/README.md) directory with a valuable list of tools, platforms and online resources like an online IDE or the best AI Search Engine for Developers and coders.
 
 ## How to use it
 
