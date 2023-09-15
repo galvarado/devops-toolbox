@@ -1,14 +1,13 @@
 #!/bin/bash
-
+# Author: Guillermo Alvarado
 # This script streamlines switching kubectl configurations, making it easier to manage Kubernetes clusters
 # across various AWS profiles or environments. It provides an interactive menu for selecting AWS profile
 # and also accepts profile names as command-line arguments for non-interactive use.
 # Example:
 #
-#    ./sk.sh
+#    ./switch_kubectl.sh
 #
 # Dependencies:
-#
 #    - AWS CLI (aws): The script uses the AWS Command Line Interface (aws) to interact with AWS services
 #    - kubectl: The script uses kubectl commands to manage Kubernetes configurations and contexts.
 #    - ~/.aws/credentials: The script reads AWS profiles from the ~/.aws/credentials file. Ensure that this file exists and contains valid AWS credentials with profiles.
@@ -20,11 +19,11 @@
 # -o pipefail: Exit if any command in a pipeline fails
 set -eu -o pipefail
 
+CLUSTER='some-eks-cluster'
+
 switch_kubectl_config() {
   local profile=$1
-  local cluster='p9-eks-cluster'
-
-  aws eks update-kubeconfig --name "$cluster" --profile "$profile"
+  aws eks update-kubeconfig --name "$CLUSTER" --profile "$profile"
   kubectl config current-context
   #kubectl config set-context --current --namespace=ikon
   echo "Switched kubectl config to profile: $profile"

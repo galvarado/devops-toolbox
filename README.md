@@ -16,8 +16,7 @@ In my journey with DevOps activities, I've often come across situations where a 
 ## Directory Structure
 
 - `scripts/`: Contains various scripts for common DevOps tasks.
-- `cloud/`: Organized by cloud provider (e.g., AWS, Azure) for cloud-specific scripts and templates.
-- `documentation/`: Documentation and usage guides.
+- `resources/`: Documentation and usage guides.
 
 ## Resources
 
