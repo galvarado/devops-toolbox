@@ -15,8 +15,9 @@ In my journey with DevOps activities, I've often come across situations where a 
 
 ## Directory Structure
 
-- `scripts/`: Contains various scripts for common DevOps tasks.
-- `resources/`: Documentation and usage guides.
+- `scripts/`: Contains various scripts for common DevOps tasks organized by platform or stack.
+- `k8s/`: Contains various yaml templates for useful resources when debugging.
+- `resources/`: Platforms and online resources
 
 ## Resources
 
