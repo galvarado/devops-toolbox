@@ -1,0 +1,15 @@
+.artifacts
+.DS_Store
+.env
+.env.old
+.history
+.idea
+.tmp
+*.swp
+*.json
+*.env
+*.csv
+
+data/
+dist/
+node_modules/
