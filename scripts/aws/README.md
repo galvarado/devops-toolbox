@@ -43,7 +43,7 @@ Dependencies:
 
 ## AWS S3 Bucket Size Calculator
 
-[bucket_size.sh](bucket_size.sh) script runs calculations for the size of each S3 bucket in the specified AWS profile and appends the results to the "allregions-buckets-s3-sizes.csv" file. It provides feedback on the progress of the calculations for each bucket.
+[bucket_size.sh](bucket_size.sh) script runs calculations for the size of each S3 bucket in the specified AWS profile and appends the results to the `allregions-buckets-s3-sizes.csv` file. It provides feedback on the progress of the calculations for each bucket.
 
 Example:
 
