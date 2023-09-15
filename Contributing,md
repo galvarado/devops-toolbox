@@ -1,0 +1,56 @@
+# Contributing
+
+When you contribute to this repository, please start by opening an issue to discuss the change you wish to make or reach out to project members for prior discussion.
+
+Please note that we have a code of conduct; please follow it in all your interactions with the project.
+
+## Pull Request Process
+
+1.  Fork the main repository.
+2.  Create a branch with your changes using the structure: User/Change-Title.
+3.  When you're ready, open a Pull Request describing the changes you made.
+4.  For now, the Pull Request should be targeted towards the "main" branch of the main repository.
+
+## Code of Conduct
+
+### Our Pledge
+
+In an effort to create a positive and respectful environment, as a contributor and maintainer, you pledge to participate in our project with a harassment-free experience for everyone, regardless of age, ethnicity, gender identity and expression, experience level, nationality, personal appearance, race, religion, or sexual identity and orientation.
+
+### Our Standards
+
+Examples of behavior that contributes to creating a positive environment include:
+
+- Using friendly language
+- Respecting different points of view and experiences
+- Accepting constructive criticism
+- Focusing on what is best for the project and the community
+- Showing empathy towards other project members and the community
+
+Examples of unacceptable behavior by participants include:
+
+- The use of sexualized language or images
+- Insulting/disparaging comments and personal or political attacks
+- Public or private harassment
+- Posting others' private information, such as physical or electronic addresses, without explicit permission
+- Other conduct that could reasonably be considered inappropriate in a professional setting
+
+### Our Responsibilities
+
+Project maintainers are responsible for clarifying the standards of behavior and are expected to take appropriate and fair corrective action in response to any instance of unacceptable behavior.
+
+Project maintainers have the right and responsibility to remove, edit, or reject comments, code, and other contributions that are not aligned with this Code of Conduct, or to temporarily or permanently ban any contributor for other behaviors that are deemed inappropriate, threatening, offensive, or harmful.
+
+### Scope
+
+This Code of Conduct applies both within project spaces and in public spaces when an individual represents the project or its community. Examples of representing a project or community include the use of an official project email address, posting through an official social media account, or acting as a designated representative at an online or offline event. Project representation may be further defined and clarified by project maintainers.
+
+### Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior can be reported by contacting the project team at [ToDo: DEFINE CONTACT METHOD]. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
+
+Project maintainers who do not follow or enforce the Code of Conduct properly may face temporary or permanent repercussions as determined by other members of the project leadership.
+
+### Attribution
+
+This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at [https://www.contributor-covenant.org/version/1/4/code-of-conduct/](https://www.contributor-covenant.org/version/1/4/code-of-conduct/).
