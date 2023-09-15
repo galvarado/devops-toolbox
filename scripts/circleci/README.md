@@ -1,4 +1,4 @@
-# AWS scripts
+# CircleCI scripts
 
 ## Prevent parallel jobs
 
