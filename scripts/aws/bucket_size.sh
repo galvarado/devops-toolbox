@@ -5,7 +5,7 @@
 #
 # Example:
 #
-#    ./bucket_size.sh
+#    ./bucket_size.sh my-aws-profile
 #
 # Dependencies:
 #
@@ -21,7 +21,7 @@ set -eu -o pipefail
 
 set +x # This command turns off debugging output. Debugging output is usually enabled with set -x, but in this script, it's disabled with set +x to reduce verbosity.
 
-PROFILE="test-profile"
+PROFILE=$1
 function calcs3bucketsize() {
     sizeInBytes=`aws --profile ${PROFILE} s3 ls s3://"${1}" --recursive --human-readable --summarize | awk END'{print}'`
     echo ${1},${sizeInBytes} >> allregions-buckets-s3-sizes.csv
