@@ -1,6 +1,6 @@
 # DevOps Toolbox
 
-![GitHub last commit](https://img.shields.io/github/last-commit/gnuowned/iac-libro) ![GitHub contributors](https://img.shields.io/github/contributors/gnuowned/iac-libro?style=plastic) ![GitHub issues](https://img.shields.io/github/issues/gnuowned/iac-libro) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/gnuowned/iac-libro) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/gnuowned/iac-libro) ![GitHub repo size](https://img.shields.io/github/repo-size/gnuowned/iac-libro)
+![GitHub last commit](https://img.shields.io/github/last-commit/galvarado/devops-toolbox) ![GitHub contributors](https://img.shields.io/github/contributors/galvarado/devops-toolbox?style=plastic) ![GitHub issues](https://img.shields.io/github/issues/galvarado/devops-toolbox) ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/galvarado/devops-toolbox) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/galvarado/devops-toolbox) ![GitHub repo size](https://img.shields.io/github/repo-size/galvarado/devops-toolbox)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
