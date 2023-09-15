@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Welcome to My DevOps Toolbox repository, my personal collection of useful scripts and tools to streamline DevOps and cloud management tasks.
-Whether I0m working with Terraform, CI/CD systems, K8s, AWS or other cloud platforms, this repository have me covered.
+Whether I'm working with Terraform, CI/CD systems, K8s, AWS or other cloud platforms, this repository have me covered.
 
 ![Alt text](assets/devopstoolbox.png 'DevOps Toolbox')
 
