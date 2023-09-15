@@ -13,7 +13,7 @@ Dependencies:
 - VCS_SLUG: e.g. BitBucket(bb), GitHub(gh)
 - ORGANIZATION: The parent organization of repository
 
-This script should be added as a step aina job as:
+This script should be added as a step in a job as:
 
 ```
 steps:
