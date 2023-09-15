@@ -19,6 +19,10 @@ In my journey with DevOps activities, I've often come across situations where a 
 - `cloud/`: Organized by cloud provider (e.g., AWS, Azure) for cloud-specific scripts and templates.
 - `documentation/`: Documentation and usage guides.
 
+## Resources
+
+-Don't forget to check out the [Resources](resources/README.md) directory with a valuable list of tools, platforms and online resources like an online IDE or the AI Search Engine for Developers and coders.
+
 ## How to use it
 
 Before running scripts, ensure that you have the following:
@@ -36,9 +40,9 @@ Before running scripts, ensure that you have the following:
 
 2. Execute the init script:
    ```
-   $ cd devops-scripts
-   $ chmod +x prep.sh
-   $ ./init.sh
+   cd devops-scripts
+   chmod +x prep.sh
+   ./init.sh
    ```
 3. Other tools may come with distinct prerequisites, and for each directory where necessary, there is an individualized README detailing those requirements on each directory.
 
