@@ -41,7 +41,7 @@ Before running scripts, ensure that you have the following:
 2. Execute the init script:
    ```
    cd devops-scripts
-   chmod +x prep.sh
+   chmod +x init.sh
    ./init.sh
    ```
 3. Other tools may come with distinct prerequisites, and for each directory where necessary, there is an individualized README detailing those requirements on each directory.
