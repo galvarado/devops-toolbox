@@ -19,7 +19,7 @@ In my journey with DevOps activities, I've often come across situations where a 
 - `k8s/`: Contains various yaml templates for useful resources when debugging.
 - `resources/`: Platforms and online resources
 
-## Resources
+### Resources
 
 Don't forget to check out the [Resources](resources/README.md) directory with a valuable list of tools, platforms and online resources like an online IDE or the best AI Search Engine for Developers and coders.
 
