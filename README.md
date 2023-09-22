@@ -15,7 +15,7 @@ In my journey with DevOps activities, I've often come across situations where a 
 
 ## Directory Structure
 
-- `scripts/`: Contains various scripts for common DevOps tasks organized by platform or stack.
+- `scripts/`: Contains various scripts for common DevOps tasks organized by platform, OS or cloud provider.
 - `k8s/`: Contains various yaml templates for useful resources when debugging.
 - `resources/`: Platforms and online resources
 
@@ -45,6 +45,23 @@ Before running scripts, ensure that you have the following:
    ./init.sh
    ```
 3. Other tools may come with distinct prerequisites, and for each directory where necessary, there is an individualized README detailing those requirements on each directory.
+
+4. You can execute the scripts directly without copy/paste o fthe file by executing:
+   ```
+   bash -c "$(curl -fsSL URL_OF_SCRIPT)"
+   ```
+
+Replace URL_OF_SCRIPT with the raw URL of the script file you want to execute.
+
+For example to execute the script [add_swap_space.sh](scripts/ubuntu/add_swap_space) directly execute:
+
+   ```
+   bash -c "$(curl -fsSL https://raw.githubusercontent.com/galvarado/devops-toolbox/main/scripts/ubuntu/add_swap_space.sh)"
+   ```
+
+This command will download the script file from the specified URL using curl, and then execute it using the bash interpreter.
+
+By using this improved command, you can directly execute scripts from GitHub without the need for manual file handling or copying and pasting the script contents.
 
 ### Troubleshooting
 
