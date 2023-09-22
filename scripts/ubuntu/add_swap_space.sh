@@ -21,8 +21,8 @@ set -eu -o pipefail
 free -h
 
 # Step 2: Calculate swap size as same amount of memory
-memory=$(free --si --mega | grep Mem: | awk '{print \$2}')
-swap_size="${memory}M"
+memory=$(free --si --giga | grep Mem: | awk '{print $2}')
+swap_size="${memory}G"
 
 # Step 3: Create a swap file
 sudo fallocate -l $swap_size /swapfile
