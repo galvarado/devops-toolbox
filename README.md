@@ -51,7 +51,7 @@ Before running scripts, ensure that you have the following:
    bash -c "$(curl -fsSL URL_OF_SCRIPT)"
    ```
 
-Replace URL_OF_SCRIPT with the raw URL of the script file you want to execute.
+Replace `URL_OF_SCRIPT` with the raw URL of the script file you want to execute.
 
 For example to execute the script [add_swap_space.sh](scripts/ubuntu/add_swap_space.sh) directly execute:
 
