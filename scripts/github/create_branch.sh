@@ -19,12 +19,18 @@
 
 set -eu -o pipefail
 
-# Get the branch name as an argument
+# Get the origin branch and the vrnach to create name as an arguments
 from_branch=$1
 feature_branch=$2
 
+# Update the fork repository before creating the feature branch
 ./update_fork $from_branch
 
+# Create a new branch locally
 git checkout -b $feature_branch
+
+# Push the new branch to the origin repository
 git push origin $feature_branch
-git push upstrean $feature_branch
+
+# Push the new branch to the upstream repository
+git push upstream $feature_branch
