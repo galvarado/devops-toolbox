@@ -53,7 +53,7 @@ Before running scripts, ensure that you have the following:
 
 Replace URL_OF_SCRIPT with the raw URL of the script file you want to execute.
 
-For example to execute the script [add_swap_space.sh](scripts/ubuntu/add_swap_space) directly execute:
+For example to execute the script [add_swap_space.sh](scripts/ubuntu/add_swap_space.sh) directly execute:
 
    ```
    bash -c "$(curl -fsSL https://raw.githubusercontent.com/galvarado/devops-toolbox/main/scripts/ubuntu/add_swap_space.sh)"
