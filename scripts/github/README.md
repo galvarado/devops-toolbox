@@ -15,7 +15,7 @@ Example:
 update_fork.sh main
 ```
 
-## Create a branch locally and at the upstream repository forked branch with upstream
+## Create a branch locally and at the upstream repository
 
 [create_branch.sh](create_branch.sh) script sync your forked branch with the latest changes from the upstream repository, ensuring that your branch stays up to date. If you have made changes to your forked branch and want to contribute those changes back to the original repository, it's important to keep your branch in sync with the upstream. This script simplifies the process of updating your branch with the latest changes from the upstream, making it easier to create clean and up-to-date pull requests.
 
