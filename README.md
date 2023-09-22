@@ -46,7 +46,7 @@ Before running scripts, ensure that you have the following:
    ```
 3. Other tools may come with distinct prerequisites, and for each directory where necessary, there is an individualized README detailing those requirements on each directory.
 
-4. You can execute the scripts directly without copy/paste o fthe file by executing:
+4. You can execute the scripts directly without copy/paste o the file by executing:
    ```
    bash -c "$(curl -fsSL URL_OF_SCRIPT)"
    ```
@@ -55,15 +55,42 @@ Replace `URL_OF_SCRIPT` with the raw URL of the script file you want to execute.
 
 For example to execute the script [add_swap_space.sh](scripts/ubuntu/add_swap_space.sh) directly execute:
 
-   ```
-   bash -c "$(curl -fsSL https://raw.githubusercontent.com/galvarado/devops-toolbox/main/scripts/ubuntu/add_swap_space.sh)"
-   ```
+```
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/galvarado/devops-toolbox/main/scripts/ubuntu/add_swap_space.sh)"
+```
 
 This command will download the script file from the specified URL using curl, and then execute it using the bash interpreter.
 
 By using this improved command, you can directly execute scripts from GitHub without the need for manual file handling or copying and pasting the script contents.
 
-### Troubleshooting
+#### Alias
+
+Consider using an alias for the scripts, useful to use them in any directory.
+
+Here's an example of how to add an alias in the .bashrc file:
+
+1. Open the .bashrc file
+
+   ```
+   vi ~/.bashrc
+   ```
+
+2. Add the alias definition:
+
+   ```
+   alias somealias='bash /path/to/script.sh'
+   ```
+
+Replace `somealias` with the actual alia. Replace `/path/to/script.sh` with the actual path to your script file.
+
+3. Save the file and exit the text editor. Source the updated `.bashrc` file to apply the changes:
+   ```
+   source ~/.bashrc
+   ```
+
+Now you can use the alias by typing its name in the terminal. For example, if you named the alias `updatefork`, you can run in your terminal `updatefork` to execute the script without the absolute path.
+
+#### Troubleshooting
 
 If you encounter any issues while running the script or have questions, please open an issue in this repository for assistance.
 
